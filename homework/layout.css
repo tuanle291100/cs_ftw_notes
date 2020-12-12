@@ -1,0 +1,94 @@
+section {
+  border: 1px solid black;
+  border-radius: 15px 15px 0 0;
+  margin-bottom: 30px;
+  height: 400px;
+  overflow: hidden;
+  color: white;
+}
+
+.bg-black {
+  background-color: black;
+}
+
+.mr-5 {
+  margin-right: 5px;
+}
+
+.bg-grey {
+  background-color: grey;
+}
+
+/* Challenge 1 */
+#challenge1 .container {
+  display: flex;
+  justify-content: space-between;
+}
+#challenge1 .right-side {
+  display: flex;
+}
+
+/* Challenge 2 */
+#challenge2 .container {
+  display: flex;
+  flex-direction: column;
+}
+#challenge2 .box-square:nth-child(2) {
+  align-self: center;
+}
+#challenge2 .box-square:nth-child(3) {
+  align-self: flex-end;
+}
+
+/* Challenge 3 */
+#challenge3 .container {
+  display: flex;
+  justify-content: start;
+  margin: 3rem;
+}
+#challenge3 .bg-grey {
+  position: relative;
+  width: 200px;
+  height: 200px;
+}
+#challenge3 .bg-black {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  top: 50px;
+  left: 50px;
+}
+
+/* Challenge 4 */
+#challenge4 .container {
+  position: relative;
+}
+#challenge4 .bg-grey {
+  position: absolute;
+  top: 50px;
+  left: 50px;
+}
+
+/* Challenge 5 */
+#challenge5 .container {
+  display: flex;
+  flex-direction: column;
+}
+#challenge5 .box1 {
+  align-self: flex-end;
+}
+#challenge5 .box2 {
+  align-self: center;
+}
+
+/* Challenge 7 */
+#challenge7 .bg-grey {
+  position: relative;
+  width: 200px;
+  height: 200px;
+}
+#challenge7 .bg-glack {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}

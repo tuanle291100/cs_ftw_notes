@@ -1,0 +1,89 @@
+p {
+  color: #2c3e50;
+}
+
+#para1 {
+  color: #2ecc71;
+}
+
+.header {
+  color: #e67e22;
+}
+
+h1 {
+  background-color: linen;
+}
+
+#assignment1 p {
+  font-style: italic;
+  font-family: Verdana;
+  font-size: 20px;
+}
+
+p::first-letter {
+  font-size: 200%;
+  color: #27ae60;
+}
+
+body {
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+h1 {
+  visibility: visible;
+}
+
+body {
+  background-color: #fff;
+  background-image: linear-gradient(
+      90deg,
+      transparent 79px,
+      #abced4 79px,
+      #abced4 81px,
+      transparent 81px
+    ),
+    linear-gradient(#eee 0.1em, transparent 0.1em);
+  background-size: 100% 1.2em;
+}
+
+a {
+  background-color: greenyellow;
+  text-transform: uppercase;
+  box-shadow: 0 10 px 0 green;
+  position: relative;
+  padding: 0.5em 1em;
+  font-style: bold;
+}
+
+a:hover {
+  background-color: green;
+}
+
+a:active {
+  box-shadow: none;
+  top: 10px;
+}
+
+#assignment3 {
+  font-size: 60px !important;
+}
+
+#assignment3 li {
+  font-size: 0.8em !important;
+}
+
+.box {
+  border: 50px solid #e74c3c;
+  padding: 50px;
+  width: 50%;
+  text-transform: uppercase;
+}
+
+.content {
+  border: 50px solid seagreen;
+}
+#assignment1 h1 {
+  /* visibility: hidden; */
+  display: none;
+}

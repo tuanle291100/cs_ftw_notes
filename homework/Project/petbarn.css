@@ -1,0 +1,105 @@
+p {
+  margin: 0;
+}
+
+.at-element-marker {
+  list-style: none;
+  text-decoration: none;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+.container {
+  max-width: 1500px;
+  margin: 0 auto;
+  padding: 0 40px;
+}
+.header-container {
+  max-width: ;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Helvetica, Helvetica;
+  font-size: 1rem;
+}
+/*notification wrapper*/
+.notification-widget {
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+  color: white;
+}
+
+.notification-widget a {
+  list-style: none;
+  text-decoration: none;
+  color: #ffc226;
+  text-transform: uppercase;
+}
+.notification-widget p {
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+.navbar {
+  background-color: black;
+}
+
+/*header*/
+.header {
+  background: #ffc127;
+}
+.header-container {
+  max-width: 1500px;
+  margin: 0 auto;
+  padding: 0 40px;
+}
+
+.branding-logo {
+  margin: 2rem;
+}
+
+.header-contain {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.right {
+  display: flex;
+  align-items: center;
+
+  margin: 0 2rem;
+}
+
+.search-button {
+  font-size: 1rem;
+  width: 30rem;
+  border-radius: 10rem;
+}
+
+.toggle-button ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  list-style: none;
+}
+
+.toggle-button li {
+  list-style: none;
+}
+
+.toggle-button li a {
+  text-decoration: none;
+  padding: 0.5rem;
+  font-size: 3.5rem;
+}
+
+/*nav-container/*
+
+/*1st-contain/*
